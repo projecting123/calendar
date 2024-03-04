@@ -1,7 +1,7 @@
 
 # Calendar in NextJS-14
 
-Fully functional calendar built in NEXTJS, this was a beautiful project for me
+Fully functional calendar built in NEXTJS without any third party libraries, this was a beautiful project for me
 
 
 
