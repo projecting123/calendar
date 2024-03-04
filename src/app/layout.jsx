@@ -9,6 +9,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <meta property="og:image" content="https://github.com/projecting123/calendar/blob/main/public/meta-image.png?raw=true" />
+      <link rel="icon" href="favicon.ico" />
       <body>
         {children}
       </body>
