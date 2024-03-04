@@ -1,6 +1,4 @@
 import "./globals.css";
-import Footer from "@/ui/Footer";
-import Navbar from "@/ui/Navbar";
 
 export const metadata = {
   title: "Calendar | Pick a date within 1900 to 2099",
@@ -12,9 +10,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <meta property="og:image" content="https://github.com/projecting123/calendar/blob/main/public/meta-image.png?raw=true" />
       <body>
-        <Navbar />
         {children}
-        <Footer />
       </body>
     </html>
   );
