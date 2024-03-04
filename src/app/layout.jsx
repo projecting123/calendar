@@ -3,13 +3,14 @@ import Footer from "@/ui/Footer";
 import Navbar from "@/ui/Navbar";
 
 export const metadata = {
-  title: "Brindaban High School",
-  description: "Official website for Brindaban High School",
+  title: "Calendar | Pick a date within 1900 to 2099",
+  description: "Calendar built in NextJS-14 | Developed by Ankur Rajbongshi",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <meta property="og:image" content="https://github.com/projecting123/calendar/blob/main/public/meta-image.png?raw=true" />
       <body>
         <Navbar />
         {children}
